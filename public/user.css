@@ -1,0 +1,34 @@
+body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+  flex-direction: column;
+  }
+
+#button {
+  background-color: rgba(0,0,0,0.4);
+  width: 90%;
+  max-width: 300px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 1.25em;
+  padding: 10px 0;
+  border: 2px solid black;
+  transition: all 1s ease;
+
+}
+
+#button:hover {
+  cursor:pointer;
+  background-color: black;
+  color: white;
+}
+
+.red {
+  background-color: pink;
+
+}
